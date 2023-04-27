@@ -1,5 +1,3 @@
-rootProject.name = "jcohy-docs-template"
+rootProject.name = "reactive-spring"
 
 include 'docs-sample'
-
-include 'docs-sample2'

@@ -8,7 +8,7 @@ description = "Jcohy Docs"
 apply plugin: "com.jcohy.archives"
 
 configure(allprojects) { abjects ->
-
+    apply plugin: "java-library"
 	group = "com.jcohy.docs"
 	version = "3.0.0"
 
