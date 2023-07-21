@@ -8,9 +8,16 @@ description = "Jcohy Docs"
 apply plugin: "com.jcohy.archives"
 
 configure(allprojects) { abjects ->
+    apply plugin: 'io.spring.dependency-management'
     apply plugin: "java-library"
 	group = "com.jcohy.docs"
 	version = "3.0.0"
+
+    dependencyManagement {
+        imports {
+            mavenBom "org.testcontainers:testcontainers-bom:1.17.6"
+        }
+    }
 
     repositories {
         maven { url = 'https://maven.aliyun.com/repository/central'}

@@ -1,7 +1,31 @@
-[[index]]
-= Spring Boot 中文文档
+[[spring-boot-reference-documentation]]
+= Reactive Spring (by JOSH LONG)
+:author: JOSH LONG,翻译 Jcohy
+:version: 1.0.0
 
-参考文档包括以下章节:
+本文档包含 https://docs.jcohy.com/docs/reactive-spring/1.0.0/pdf/zh-cn/index.pdf[一个 PDF].
 
-[horizontal]
-<<legal#legal,Legal>> :: 版权信息.
+
+include::introduction.adoc[leveloffset=+1]
+
+include::prerequisites.adoc[leveloffset=+1]
+
+include::bootstrap.adoc[leveloffset=+1]
+
+include::io.adoc[leveloffset=+1]
+
+include::reactor.adoc[leveloffset=+1]
+
+include::data.adoc[leveloffset=+1]
+
+include::http.adoc[leveloffset=+1]
+
+include::testing.adoc[leveloffset=+1]
+
+include::rsocket.adoc[leveloffset=+1]
+
+include::orchestration.adoc[leveloffset=+1]
+
+include::action.adoc[leveloffset=+1]
+
+// include::about.adoc[leveloffset=+1]
